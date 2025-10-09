@@ -7,8 +7,10 @@ docker compose up -d
 ```
 
 #### Abrir o pgAdmin: 
-> http://localhost:5050 
-> Login: ifrn@ifrn.cn 
+> http://localhost:5050
+
+> Login: ifrn@ifrn.cn
+
 > Senha: ifrn.cn 
 
 ### Registrar o servidor no pgAdmin (Add New Server…)
