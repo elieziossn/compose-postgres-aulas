@@ -1,7 +1,9 @@
 # ▶️ Passo a passo
 
-### Subir o stack
+### Baixar o compose.yml
+> baixar e salvar na home 
 
+### Subir o stack
 ```
 docker compose up -d
 ```
