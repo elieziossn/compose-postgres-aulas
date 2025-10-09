@@ -10,9 +10,13 @@ docker compose up -d
 ### Registrar o servidor no pgAdmin (Add New Server…)
 
 General → Name: Local docker
+
 Connection → Host name/address: postgres
+
 Port: 5432
+
 Username: ifrn_cn
+
 Password: ifrn.cn
 
 (Opcional) Maintenance DB: postgres
