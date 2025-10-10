@@ -1,21 +1,20 @@
 # ▶️ Passo a passo
 
-### Baixar o compose.yml
-> baixar e salvar na home 
+### 1. Baixar o compose.yml
 
-### Subir o stack
+### 2. Subir o stack
 ```
 docker compose up -d
 ```
 
-#### Abrir o pgAdmin: 
+#### 3. Abrir o pgAdmin: 
 > http://localhost:5050
 
 > Login: ifrn@ifrn.cn
 
 > Senha: ifrn.cn 
 
-### Registrar o servidor no pgAdmin (Add New Server…)
+### 4. Registrar o servidor no pgAdmin (Add New Server…)
 
 - General → Name: Local docker 
 - Connection → Host name/address: postgres 
@@ -25,9 +24,9 @@ docker compose up -d
 - (Opcional) Maintenance DB: postgres
 
 # 🛠️ Troubleshooting
-> Cannot connect to the Docker daemon at ...
 
-Para resolver utilize os seguintes comandos no terminal:
+##### Erro: Cannot connect to the Docker daemon at ...
+###### Para resolver utilize os seguintes comandos no terminal:
 ```
 docker context ls
 docker context use default
