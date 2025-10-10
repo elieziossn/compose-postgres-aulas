@@ -23,3 +23,14 @@ docker compose up -d
 - Username: ifrn_cn 
 - Password: ifrn.cn 
 - (Opcional) Maintenance DB: postgres
+
+# 🛠️ Troubleshooting
+> Cannot connect to the Docker daemon at ...
+
+Para resolver utilize os seguintes comandos no terminal:
+```
+docker context ls
+docker context use default
+unset DOCKER_HOST
+docker info
+```
