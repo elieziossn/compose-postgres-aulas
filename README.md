@@ -33,3 +33,6 @@ docker context use default
 unset DOCKER_HOST
 docker info
 ```
+
+### Para copiar arquivos para container utilize o exemplo abaixo:
+> docker cp alunos.csv bd-aula-pg:/tmp/alunos.csv
